@@ -120,13 +120,5 @@ const btns = document.querySelectorAll("button");
 const div = document.querySelector("#results");
 
 
-btns.forEach(button) => {
-    // and for each one we add a 'click' listener
-    button.addEventListener("click", () => {
-        roundOutput = playRound(button, textContent);
-        printScores(humanScore, computerScore, roundCounter, roundOutput);
-    
-    });
-});
 
 
